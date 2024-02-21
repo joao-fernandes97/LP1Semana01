@@ -26,6 +26,10 @@ namespace VariousTypes
             float f = 3.145f;
             decimal z = 3.145m;
             Console.WriteLine($"{d}\n{f}\n{z}");
+
+            bool tru = true;
+            bool fal = false;
+            Console.WriteLine($"{tru}\n{fal}");
         }
     }
 }
