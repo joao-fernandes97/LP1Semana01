@@ -21,6 +21,11 @@ namespace VariousTypes
             char pog = '\u1435';
             char five = '\u168e';
             Console.WriteLine($"{triangle}\n{eye}\n{pog}\n{five}");
+
+            double d = 3.145;
+            float f = 3.145f;
+            decimal z = 3.145m;
+            Console.WriteLine($"{d}\n{f}\n{z}");
         }
     }
 }
