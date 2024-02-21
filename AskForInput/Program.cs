@@ -12,6 +12,8 @@ namespace AskForInput
             Console.WriteLine("Now enter a decimal number");
             str = Console.ReadLine();
             float f = float.Parse(str);
+
+            Console.WriteLine($"{i+f}");
         }
     }
 }
