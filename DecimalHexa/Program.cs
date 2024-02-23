@@ -16,10 +16,15 @@ namespace DecimalHexa
             string n3=Console.ReadLine();
             string n4=Console.ReadLine();
 
-            Console.WriteLine(n1);
-            Console.WriteLine(n2);
-            Console.WriteLine(n3);
-            Console.WriteLine(n4);
+            int i1 = int.Parse(n1);
+            int i2 = int.Parse(n2);
+            int i3 = int.Parse(n3);
+            int i4 = int.Parse(n4);
+
+            Console.WriteLine($"{i1,6}  {i1,6:X}");
+            Console.WriteLine($"{i2,6}  {i2,6:X}");
+            Console.WriteLine($"{i3,6}  {i3,6:X}");
+            Console.WriteLine($"{i4,6}  {i4,6:X}");
         }
     }
 }
